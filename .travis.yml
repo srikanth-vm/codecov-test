@@ -4,4 +4,4 @@ script:
 - cd Examples
 - xcodebuild -version
 - xcodebuild -project CodeCovTest.xcodeproj -scheme CodeCovTest -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" -configuration Release ONLY_ACTIVE_ARCH=YES -enableCodeCoverage YES test
-- bash <(curl -s https://codecov.io/bash) -cF ios
+- bash <(curl -s https://codecov.io/bash) -cF ios -t f8db6a22-f27c-4e58-861b-8fd4795700e0
