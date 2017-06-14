@@ -10,16 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    func untestedFunction() {
+        let a = 50
+        let b = a * 2
+        
+        print(b)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func addAndDouble(number1: Int, number2: Int) -> Int {
+        let sum = number1 + number2
+        
+        return sum * 2
     }
-
 
 }
 
