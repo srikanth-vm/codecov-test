@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     func untestedFunction() {
         let a = 50
         let b = a * 2
-        
         print(b)
     }
     
