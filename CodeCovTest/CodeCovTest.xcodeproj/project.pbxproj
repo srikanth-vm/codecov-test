@@ -355,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN6Y68P8U9;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = CodeCovTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goodspeed.CodeCovTest;
@@ -412,6 +413,7 @@
 				0B4C39BB1EF192C000FE84B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B4C39BC1EF192C000FE84B8 /* Build configuration list for PBXNativeTarget "CodeCovTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +422,7 @@
 				0B4C39BE1EF192C000FE84B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
